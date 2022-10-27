@@ -23,7 +23,7 @@ HL: Create the Truth table for the boolean equation
 
 out = ABC+(A+B+C)+not(notA notB notC)
 
-![](Assets/Quiz018_Boolean.jpeg)
+![](/Assets/Quiz018_Boolean.jpeg)
 
 | Input | Output |
 |-------|--------|
