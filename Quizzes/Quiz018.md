@@ -23,6 +23,20 @@ HL: Create the Truth table for the boolean equation
 
 out = ABC+(A+B+C)+not(notA notB notC)
 
+![](Assets/Quiz018_Boolean.jpeg)
+
+| Input | Output |
+|-------|--------|
+| 0 0 0 | 0      |
+| 0 0 1 | 1      |
+| 0 1 0 | 1      |
+| 0 1 1 | 1      |
+| 1 0 0 | 1      |
+| 1 0 1 | 1      |
+| 1 1 0 | 1      |
+| 1 1 1 | 1      |
+
+
 ## Code Structure 
 ```.py
 #Quiz 018 2022-10-27
