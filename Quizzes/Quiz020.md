@@ -31,6 +31,7 @@ table_of_truth()
 
 ## HL Part
 ![](/Assets/Quiz020_Boolean.jpg)
+
 *Fig.2* **Boolean circuit of given equation**
 
 | S1  | S2  | S3  | Output |
@@ -43,4 +44,5 @@ table_of_truth()
 | 1   | 0   | 1   | F      |
 | 1   | 1   | 0   | T      |
 | 1   | 1   | 1   | T      |
+
 *Table.1* **Truth Table for given equation**
