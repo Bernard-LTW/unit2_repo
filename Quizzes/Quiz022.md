@@ -3,7 +3,7 @@
 ## Prompt
 Create a program that produces n random values from the equation below , where m and s are the other inputs of the function
 
-$y = x^(1/2*(m/s)^2)$
+$y = x^((1/2*(m/s)^2))$
 
 HL: Show A(A+B)=A
 
