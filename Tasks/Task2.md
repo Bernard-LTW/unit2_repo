@@ -33,7 +33,7 @@ while True:
 
 ## Video
 
-!["Click here for the video"](https://drive.google.com/file/d/1f_uqRTZztHHKePOmN2UyAHlGDSkFtJRf/view?usp=share_link)
+[Click here for the video](https://drive.google.com/file/d/1f_uqRTZztHHKePOmN2UyAHlGDSkFtJRf/view?usp=share_link)
 
 *Fig.2* **Video of the build**
 
