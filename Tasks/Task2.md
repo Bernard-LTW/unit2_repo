@@ -56,6 +56,7 @@ while True:
 ## Evidence
 ![](/Assets/Task2_Evidence.jpeg)
 *Fig.2* **Photo of the build**
+As we can see in Figure 2, it shows a arduino on the left of the photo
 
 ## Video
 
@@ -69,7 +70,7 @@ while True:
 
 ## Citations
 
-[1] Pinzon, Ruben. “System Diagram Binary Counter.” System Diagram Binary Counter, 8 Nov. 2022, docs.google.com/presentation/d/1sgshVux_DLBBhZKoKJrq9l79a9B_2aTzmdnAtdFDHhc/edit#slide=id.p.
+[1] Pinzon, Ruben. “System Diagram Binary Counter.” System Diagram Binary Counter: Google Slides, 8 Nov. 2022, docs.google.com/presentation/d/1sgshVux_DLBBhZKoKJrq9l79a9B_2aTzmdnAtdFDHhc/edit#slide=id.p.
 
 
 
