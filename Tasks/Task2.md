@@ -6,7 +6,6 @@ To build the circuit below using Arduino and create the program in Python to con
 ## System Diagram
 ![](/Assets/Task2_SysD.jpg)
 
-*Fig.1* **System Diagram**
 
 ## Code Structure(Forever) 
 ```.py
