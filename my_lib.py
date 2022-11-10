@@ -64,7 +64,7 @@ def validate_1_to_n_input(prompt: str, n: int) -> int:
             error_out = num
         num = int(num)
         # If the input is a number, validate whether it is in the given range
-        if 0 < num < n:
+        if 0 <= num < n:
             validity = True
         else:
             num = input(f"{yellow}Please enter a valid input:{end_code}")
