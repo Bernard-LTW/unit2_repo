@@ -41,8 +41,8 @@ plt.show()
 *Fig.1* **Screenshot showing the result of the program**
 
 ## Part B
-
 Circuit for not(bit0 bit1 + not(bit0 +bit1))
+
 ![](/Assets/Quiz024_Boolean.png)
 
 *Fig.2* **Circuit for not(bit0 bit1 + not(bit0 +bit1))**
