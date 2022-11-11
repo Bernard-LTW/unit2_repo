@@ -37,6 +37,7 @@ plt.show()
 
 ## Evidence
 ![](/Assets/Quiz024_Evidence.jpg)
+
 *Fig.1* **Screenshot showing the result of the program**
 
 ## Part B
