@@ -1,4 +1,5 @@
 # 2022-11-11 Task2 Part2
+#Updated 2022-11-15
 
 # Create a program where it is a game of ten questions
 # The user will be asked to press YES or NO on the arduino
@@ -24,7 +25,7 @@ question_bank = [
 
 
 
-board = Arduino('/dev/cu.usbserial-10')
+board = Arduino('/dev/cu.usbserial-110')
 print("Board is ready")
 
 it = pyfirmata.util.Iterator(board)
@@ -42,38 +43,34 @@ LED = board.digital[2]
 LED.write(0)
 for i in question_bank:
     print(i[0])
-    while not button_stateA or not button_stateB:
+    print("Waiting for the button to be pressed")
+    while not button_stateA and not button_stateB:
         time.sleep(0.1)
-        print("Waiting for the button to be pressed")
+
         button_stateA = buttonA.read()
         button_stateB = buttonB.read()
-    print("Button is pressed. Blinking five times")
+        #print(button_stateA, button_stateB)
+    print("Button is pressed.")
     if button_stateA:
         if i[1] == "yes":
-            for i in range(5):
+            print("Correct!")
+            for j in range(5):
                 LED.write(1)
                 time.sleep(1)
                 LED.write(0)
                 time.sleep(1)
-    else:
-        for i in range(2):
-            LED.write(1)
-            time.sleep(1)
-            LED.write(0)
-            time.sleep(1)
-    if button_stateB:
+        else:
+            print("Incorrect!")
+    elif button_stateB:
         if i[1] == "no":
-            for i in range(5):
+            print("Correct!")
+            for j in range(5):
                 LED.write(1)
                 time.sleep(1)
                 LED.write(0)
                 time.sleep(1)
-    else:
-        for i in range(2):
-            LED.write(1)
-            time.sleep(1)
-            LED.write(0)
-            time.sleep(1)
+        else:
+            print("Incorrect!")
     button_stateA = False
     button_stateB = False
 
