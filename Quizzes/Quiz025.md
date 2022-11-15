@@ -1,7 +1,7 @@
 # Quiz 025
 
 ## Part A Prompt
-Create a program that shows the graph of the function below for 100 values of x in the interval $-10<x<10$
+Create a program that shows the graph of the function below for 100 values of x in the interval $-10 < x < 10$
 ## Code Structure 
 ```.py
 #2022-11-15 Quiz 025
@@ -28,6 +28,7 @@ plt.show()
 
 ## Part B
 Convert to decimal: FFA5
+
 $(FFA5)₁₆ = (15 × 16³) + (15 × 16²) + (10 × 16¹) + (5 × 16⁰) = (65445)₁₀$
 
 
