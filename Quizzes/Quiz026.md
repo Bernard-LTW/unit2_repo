@@ -44,4 +44,8 @@ Convert the following color in hex to rgb: #e6e627
 
 $(e6e627)₁₆ = (14 × 16¹) + (6 × 16⁰) + (14 × 16¹) + (6 × 16⁰) + (2 × 16¹) + (7 × 16⁰) = (230, 230, 39)₁₀$
 
+![](/Assets/Quiz026_PartB.jpg)
+
+*Fig.2* **Workings for Part B**
+
 
