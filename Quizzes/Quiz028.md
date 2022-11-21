@@ -1,4 +1,4 @@
-# Quiz 027
+# Quiz 028
 
 ## Part A Prompt
 Create a graoh for the X and Y values below
