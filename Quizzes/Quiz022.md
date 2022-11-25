@@ -38,7 +38,7 @@ print(produce(n=5,m=3,s=2))
 *Fig.1* **Screenshot showing the result of the program**
 
 ## HL Part
-![](/Assets/Quiz022_Boolean.jpg)
+![](/Assets/Quiz022_Boolean.jpeg)
 
 *Fig.2* **Proof that _A(A+B)=A_**
 
