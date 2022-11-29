@@ -1,4 +1,4 @@
-# Quiz 028
+# Quiz 029
 
 ## Part A Prompt
 Create a function that receives a dictionary with letters in the alphabet as keys and a string. The functions returns the dictionary with a count as value for the occurrence of each letter:
@@ -34,6 +34,7 @@ Systems with a 6-bit RGB palette use 2 bits for each of the red, green, and blue
 ![](/Assets/Quiz029_PartB.jpeg)
 
 *Fig.2* **Picture showing the different colors that can be represented by a 6 bit computer**
+
 “List of Monochrome and RGB Color Formats.” Wikipedia, Wikimedia Foundation, 18 Nov. 2022, https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats#6-bit_RGB. 
 
 
