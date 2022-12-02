@@ -1,4 +1,4 @@
-# Quiz 030
+# Quiz 031
 
 ## Part A Prompt
 Connect to the server and download the "recordings" data. From the data, build a linear model between t = 610 and t = 800
