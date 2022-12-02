@@ -46,12 +46,12 @@ for i in range(0,190):
     x_quadmodel.append(i)
     y_quadmodel.append(x*i**2+y*i+z)
 
-print(x_quadmodel)
-print(y_quadmodel)
 
 plt.scatter(samples, temp)
 plt.plot(x_linmodel,y_linmodel, color="red")
+plt.text(70, 20, f"Linear Equation: y = {m:.2f}x + {b:.2f}", fontsize=6)
 plt.plot(x_quadmodel,y_quadmodel, color="green")
+plt.text(30, 25, f"Quadratic Equation: y = {x:.2f}x^2 + {y:.2f}x + {z:.2f}", fontsize=6)
 plt.title("Scatter Plot of the data")
 plt.xlabel("x")
 plt.ylabel("y")
@@ -59,6 +59,6 @@ plt.show()
 ```
 
 ## Evidence
-![](/Assets/Quiz031_Evidence.jpg)
+![](/Assets/Quiz031_Evidence2.jpg)
 
 *Fig.1* **Screenshot showing the result of the program**
